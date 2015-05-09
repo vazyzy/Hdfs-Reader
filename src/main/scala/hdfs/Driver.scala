@@ -3,7 +3,6 @@ package hdfs
 
 import java.net.URI
 
-import latte.ui.hdfs.Types._
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs.{PathFilter, FileSystem, FileUtil, Path}
 import org.apache.hadoop.io.{BytesWritable, LongWritable, SequenceFile}
